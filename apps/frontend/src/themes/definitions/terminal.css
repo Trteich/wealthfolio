@@ -84,6 +84,18 @@
   --heatmap-positive-high: #176b32;
   --heatmap-negative-low: #f5dddd;
   --heatmap-negative-high: #a82424;
+  /* Treemap middle stops halfway between low and high, so the ramp stays a straight
+     blend. Dark mode mixes its own low and high. */
+  --heatmap-positive-mid: color-mix(
+    in srgb,
+    var(--heatmap-positive-low),
+    var(--heatmap-positive-high)
+  );
+  --heatmap-negative-mid: color-mix(
+    in srgb,
+    var(--heatmap-negative-low),
+    var(--heatmap-negative-high)
+  );
   --heatmap-label-dark: #061809;
   --heatmap-label-light: #f1fff2;
   /* Phosphor green for under target; over target stays red. */
@@ -130,6 +142,7 @@
   --chart-8: #43824c;
   --chart-9: #628768;
   --chart-stone: var(--chart-9);
+  --net-worth: #ffb000;
   --fi-stream-1: var(--chart-1);
   --fi-stream-2: var(--chart-2);
   --fi-stream-3: var(--chart-3);
@@ -142,7 +155,6 @@
   --overlay-shadow: 0 0 15px 2px rgb(126 231 135 / 0.4), 0 4px 6px 1px rgb(126 231 135 / 0.4);
   --heatmap-positive-low: #092b10;
   --heatmap-positive-high: #3fae59;
-  --net-worth: #ffb000;
   --heatmap-negative-low: #321010;
   --heatmap-negative-high: #c83232;
   --heatmap-label-dark: #061809;

@@ -89,6 +89,18 @@
   --heatmap-positive-high: #1c6c66;
   --heatmap-negative-low: #f9b9cf;
   --heatmap-negative-high: #87285e;
+  /* Treemap middle stops halfway between low and high, so the ramp stays a straight
+     blend. Dark mode mixes its own low and high. */
+  --heatmap-positive-mid: color-mix(
+    in srgb,
+    var(--heatmap-positive-low),
+    var(--heatmap-positive-high)
+  );
+  --heatmap-negative-mid: color-mix(
+    in srgb,
+    var(--heatmap-negative-low),
+    var(--heatmap-negative-high)
+  );
   --heatmap-label-dark: #06201e;
   --heatmap-label-light: #f2f8f9;
 }
@@ -129,6 +141,12 @@
   --chart-8: #e0879f;
   --chart-9: #7f9fae;
   --chart-stone: #7f9fae;
+  --spending-accent: #3aa99f;
+  --spending-deep: #3aa99f;
+  --spending-mid: #66a0c8;
+  --net-worth: #ce5d97;
+  /* In dark mode every chart colour reaches 3:1 as it is. */
+  --series-5: var(--chart-5);
   --sidebar: #080c11;
   --sidebar-foreground: #d3e3e8;
   --sidebar-primary: #5abdac;
@@ -141,12 +159,6 @@
   --fi-stream-1: #5abdac;
   --fi-stream-2: #66a0c8;
   --fi-stream-3: #a699d0;
-  --spending-accent: #3aa99f;
-  --spending-deep: #3aa99f;
-  --spending-mid: #66a0c8;
-  --net-worth: #ce5d97;
-  /* In dark mode every chart colour reaches 3:1 as it is. */
-  --series-5: var(--chart-5);
   --fi-stream-4: #ce5d97;
   --fi-stream-5: #87d3c3;
   --heatmap-accent: #3aa99f;
