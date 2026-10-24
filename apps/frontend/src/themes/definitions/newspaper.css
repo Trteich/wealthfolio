@@ -46,6 +46,11 @@
   --chart-8: hsl(50 14% 83%);
   --chart-9: hsl(51 21% 88%);
   --chart-stone: hsl(49 7% 70%);
+  /* Spending and Net Worth in ink. */
+  --spending-accent: #35332d;
+  --spending-deep: #35332d;
+  --spending-mid: #857f70;
+  --net-worth: #35332d;
   --sidebar: #edeae1;
   --sidebar-foreground: #171614;
   --sidebar-primary: #171614;
@@ -126,6 +131,10 @@
   --fi-stream-1: #e8e4d9;
   --fi-stream-2: #c4bfb1;
   --fi-stream-3: #a09a8c;
+  --spending-accent: #c4bfb1;
+  --spending-deep: #c4bfb1;
+  --spending-mid: #7d7768;
+  --net-worth: #c4bfb1;
   --fi-stream-4: #7d7768;
   --fi-stream-5: #5c5749;
   --heatmap-accent: #e8e4d9;

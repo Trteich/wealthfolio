@@ -50,6 +50,21 @@
   --chart-8: #ce5d97;
   --chart-9: #6f9aa6;
   --chart-stone: #6f9aa6;
+  /* Series (lines and markers) follow the chart colours; those under 3:1 on the
+     page or card are darkened to reach it, keeping their hue. */
+  --series-1: var(--chart-1);
+  --series-2: var(--chart-2);
+  --series-3: var(--chart-3);
+  --series-4: var(--chart-4);
+  --series-5: #279b91;
+  --series-6: var(--chart-6);
+  --series-7: var(--chart-7);
+  --series-8: var(--chart-8);
+  /* Spending in teal and blue; Net Worth in the magenta of the chart palette. */
+  --spending-accent: #1c6c66;
+  --spending-deep: #1c6c66;
+  --spending-mid: #205ea6;
+  --net-worth: #b74583;
   --sidebar: #e9f3f5;
   --sidebar-foreground: #0d2129;
   --sidebar-primary: #1c6c66;
@@ -126,6 +141,12 @@
   --fi-stream-1: #5abdac;
   --fi-stream-2: #66a0c8;
   --fi-stream-3: #a699d0;
+  --spending-accent: #3aa99f;
+  --spending-deep: #3aa99f;
+  --spending-mid: #66a0c8;
+  --net-worth: #ce5d97;
+  /* In dark mode every chart colour reaches 3:1 as it is. */
+  --series-5: var(--chart-5);
   --fi-stream-4: #ce5d97;
   --fi-stream-5: #87d3c3;
   --heatmap-accent: #3aa99f;

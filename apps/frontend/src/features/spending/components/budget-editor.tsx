@@ -49,7 +49,7 @@ import { Switch } from "@wealthfolio/ui/components/ui/switch";
 import { cn } from "@/lib/utils";
 
 import { useBudget, useBudgetMutations } from "../hooks/use-budget";
-import { FOREST_THEME } from "../lib/theme";
+import { SPENDING_THEME } from "../lib/theme";
 import type {
   BudgetCategoryRow,
   BudgetGroup,
@@ -210,7 +210,7 @@ export function BudgetEditor({ mode, periodKey }: BudgetEditorProps) {
             onClick={() =>
               mutations.createGroup.mutate({
                 name: t("spending:budgetEditor.newGroup"),
-                color: FOREST_THEME.deep,
+                color: SPENDING_THEME.deep,
                 icon: "Folder",
               })
             }
@@ -406,7 +406,7 @@ function SegmentedGroupBar({
           className="min-w-[3px] transition-all"
           style={{
             width: `${Math.max(1, safePercent(row.plannedTotal, total) * 100)}%`,
-            backgroundColor: row.group.color ?? FOREST_THEME.deep,
+            backgroundColor: row.group.color ?? SPENDING_THEME.deep,
           }}
         />
       ))}
@@ -424,7 +424,7 @@ function GroupSummaryCell({
   denominator: number;
 }) {
   const numberFormatting = useNumberFormatting();
-  const accent = row.group.color ?? FOREST_THEME.deep;
+  const accent = row.group.color ?? SPENDING_THEME.deep;
   const pct = safePercent(row.plannedTotal, denominator);
   return (
     <div className="flex min-w-0 items-center gap-2 py-0.5">
@@ -497,7 +497,7 @@ function GroupBudgetSection({
   const [confirmDeleteOpen, setConfirmDeleteOpen] = useState(false);
   const groupOverride = findGroupBufferTarget(targets, periodKey, row.group.id);
   const groupRollover = findGroupRollover(rolloverSettings, row.group.id);
-  const accent = row.group.color ?? FOREST_THEME.deep;
+  const accent = row.group.color ?? SPENDING_THEME.deep;
   const spentPct = safePercent(Math.max(0, row.actual), row.plannedTotal);
   const totalSuffix =
     mode === "setup"
@@ -790,7 +790,7 @@ function AddCategoryRow({
   const list = (
     <div className={cn("overflow-y-auto", isMobile ? "max-h-[55vh]" : "max-h-72")}>
       {pool.map((entry, idx) => {
-        const accent = entry.category.color ?? FOREST_THEME.deep;
+        const accent = entry.category.color ?? SPENDING_THEME.deep;
         return (
           <button
             key={entry.category.categoryId}
@@ -1124,7 +1124,7 @@ function BudgetCategoryLine({
 }) {
   const { t } = useTranslation();
   const numberFormatting = useNumberFormatting();
-  const accent = row.color ?? FOREST_THEME.deep;
+  const accent = row.color ?? SPENDING_THEME.deep;
   const hasOverride = monthMode && !!target;
   const overBudget = row.target > 0 && row.actual > row.target;
   const sharePct = safePercent(row.target, groupTotal);
@@ -1220,7 +1220,7 @@ function BudgetCategoryLine({
                     <span className="flex items-center gap-2">
                       <span
                         className="h-2 w-2 rounded-full"
-                        style={{ backgroundColor: group.color ?? FOREST_THEME.deep }}
+                        style={{ backgroundColor: group.color ?? SPENDING_THEME.deep }}
                       />
                       {group.name}
                     </span>

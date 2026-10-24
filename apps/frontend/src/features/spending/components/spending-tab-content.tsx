@@ -65,7 +65,7 @@ import {
   shouldPreferDashboardPeriod,
 } from "../lib/period-preferences";
 import type { ReportsPeriod } from "../lib/reports-period";
-import { FOREST_THEME, themeBg, type Palette } from "../lib/theme";
+import { SPENDING_THEME, themeBg, type Palette } from "../lib/theme";
 import {
   addCalendarDays,
   addCalendarMonths,
@@ -385,7 +385,7 @@ export default function SpendingTabContent() {
     () => selectionData(selection, dateFormatting, appTimezone),
     [selection, dateFormatting, appTimezone],
   );
-  const theme: Palette = FOREST_THEME;
+  const theme: Palette = SPENDING_THEME;
 
   const [whereItWentView, setWhereItWentView] = usePersistentState<"list" | "map">(
     "spending-where-view",

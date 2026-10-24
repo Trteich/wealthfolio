@@ -52,6 +52,20 @@
   --chart-8: #3b7046;
   --chart-9: #607c64;
   --chart-stone: var(--chart-9);
+  /* Series (lines and markers) follow the chart colours, all 3:1 or more on the card. */
+  --series-1: var(--chart-1);
+  --series-2: var(--chart-2);
+  --series-3: var(--chart-3);
+  --series-4: var(--chart-4);
+  --series-5: var(--chart-5);
+  --series-6: var(--chart-6);
+  --series-7: var(--chart-7);
+  --series-8: var(--chart-8);
+  /* Spending in the phosphor greens; Net Worth in amber phosphor. */
+  --spending-accent: var(--chart-1);
+  --spending-deep: var(--chart-3);
+  --spending-mid: var(--chart-2);
+  --net-worth: #9a6700;
   --fi-stream-1: var(--chart-1);
   --fi-stream-2: var(--chart-2);
   --fi-stream-3: var(--chart-3);
@@ -128,6 +142,7 @@
   --overlay-shadow: 0 0 15px 2px rgb(126 231 135 / 0.4), 0 4px 6px 1px rgb(126 231 135 / 0.4);
   --heatmap-positive-low: #092b10;
   --heatmap-positive-high: #3fae59;
+  --net-worth: #ffb000;
   --heatmap-negative-low: #321010;
   --heatmap-negative-high: #c83232;
   --heatmap-label-dark: #061809;
