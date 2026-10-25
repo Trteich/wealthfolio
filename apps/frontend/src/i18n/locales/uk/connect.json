@@ -1,0 +1,368 @@
+{
+  "opensInBrowser": "Відкривається в браузері",
+  "page": {
+    "title": "Синхронізація та підключення",
+    "subtitle": "Ваші пристрої в одному місці.",
+    "subtitleWithBrokers": "Ваші брокери та пристрої в одному місці.",
+    "brokerages": "Брокери",
+    "devices": "Пристрої",
+    "recentActivity": "Остання активність",
+    "manage": "Керувати",
+    "timeAgo": "{{time}} тому",
+    "noBrokeragesConnected": "Брокерів не підключено",
+    "noBrokeragesDescription": "Підключіть брокера, щоб почати синхронізацію своїх рахунків.",
+    "noDevicesSyncing": "Пристрої ще не синхронізуються",
+    "noDevicesDescription": "Налаштуйте синхронізацію пристроїв у налаштуваннях, щоб ваші дані були синхронізовані на всіх пристроях.",
+    "noActivity": "Подій ще немає",
+    "noActivityDescription": "Оновлення з'являться тут, щойно почнеться синхронізація ваших даних.",
+    "showMore_one": "Показати ще {{count}}",
+    "showMore_few": "Показати ще {{count}}",
+    "showMore_many": "Показати ще {{count}}",
+    "showMore_other": "Показати ще {{count}}",
+    "showLess": "Показати менше"
+  },
+  "emptyState": {
+    "optional": "Необов'язково",
+    "subtitle": "Автоматично синхронізуйте своїх брокерів, зберігаючи конфіденційність даних.",
+    "getStarted": "Почати роботу з Connect",
+    "loginToAccount": "Увійдіть у свій обліковий запис",
+    "learnMore": "Дізнатися більше про Connect",
+    "features": {
+      "brokerageSync": {
+        "title": "Підключені рахунки",
+        "description": "Автоматично синхронізуйте операції від ваших брокерів."
+      },
+      "deviceSync": {
+        "title": "Синхронізація пристроїв і резервні копії",
+        "description": "Наскрізно зашифрована синхронізація та автоматичні хмарні резервні копії."
+      },
+      "householdView": {
+        "title": "Сімейні портфелі",
+        "description": "Спільний перегляд інвестицій вашої родини."
+      }
+    }
+  },
+  "flow": {
+    "aggregatorExample": "(наприклад, SnapTrade)",
+    "yourDevice": "Ваш пристрій",
+    "localDatabase": "Локальна база даних",
+    "dataStaysHere": "Дані залишаються тут",
+    "aggregators": "Агрегатори",
+    "brokerages": "Брокери",
+    "banks": "Банки",
+    "crypto": "Криптовалюта"
+  },
+  "account": {
+    "userAvatar": "Аватар користувача",
+    "userFallback": "Користувач",
+    "active": "Активний",
+    "signOut": "Вийти",
+    "signOutTitle": "Вийти з Wealthfolio Connect?",
+    "signOutMessage": "Щоб отримати доступ до синхронізованих брокерських рахунків, потрібно буде увійти знову. Це не вплине на ваші локальні дані.",
+    "signOutConfirm": "Вийти",
+    "signingOut": "Вихід..."
+  },
+  "accounts": {
+    "title": "Рахунки",
+    "manage": "Керувати рахунками",
+    "accountFallback": "Рахунок",
+    "platformFallback": "Платформа",
+    "brokerFallback": "Брокер",
+    "paper": "Демо",
+    "shared": "Спільний",
+    "sharedBy": "Надано користувачем {{name}}",
+    "syncEnabled": "Синхронізацію ввімкнено",
+    "excludedFromSync": "Виключено із синхронізації",
+    "noDataYet": "Даних ще немає",
+    "dataAsOf": "Дані станом на {{date}}",
+    "emptyTitle": "Рахунків ще не синхронізовано",
+    "emptyDescription": "Підключіть брокера, щоб почати синхронізацію своїх рахунків.",
+    "needsSetup": "Потрібне налаштування"
+  },
+  "connections": {
+    "title": "Підключення брокерів",
+    "manage": "Керувати підключеннями",
+    "empty": "Підключень брокерів ще немає",
+    "connectBroker": "Підключити брокера",
+    "unknownBroker": "Невідомий брокер",
+    "unknown": "Невідомо",
+    "connected": "Підключено",
+    "disconnected": "Відключено",
+    "reconnect": "Підключити знову",
+    "noAccountsFound": "Рахунків не знайдено",
+    "allAccountsExcluded": "Усі рахунки виключено",
+    "accountsSyncing_one": "{{count}} рахунок синхронізується",
+    "accountsSyncing_few": "{{count}} рахунки синхронізуються",
+    "accountsSyncing_many": "{{count}} рахунків синхронізуються",
+    "accountsSyncing_other": "{{count}} рахунку синхронізуються",
+    "partialSyncing_one": "{{syncing}} із {{total}} рахунків синхронізуються · виключено: {{excluded}}",
+    "partialSyncing_few": "{{syncing}} із {{total}} рахунків синхронізуються · виключено: {{excluded}}",
+    "partialSyncing_many": "{{syncing}} із {{total}} рахунків синхронізуються · виключено: {{excluded}}",
+    "partialSyncing_other": "{{syncing}} із {{total}} рахунків синхронізуються · виключено: {{excluded}}",
+    "accountCount_one": "{{count}} рахунок",
+    "accountCount_few": "{{count}} рахунки",
+    "accountCount_many": "{{count}} рахунків",
+    "accountCount_other": "{{count}} рахунку",
+    "excludedCount_one": "{{count}} виключено",
+    "excludedCount_few": "{{count}} виключено",
+    "excludedCount_many": "{{count}} виключено",
+    "excludedCount_other": "{{count}} виключено"
+  },
+  "sync": {
+    "syncNow": "Синхронізувати зараз",
+    "sync": "Синхронізувати",
+    "syncAll": "Синхронізувати все",
+    "syncingShort": "Синхронізація...",
+    "statusTitle": "Стан синхронізації",
+    "syncingBrokerData": "Синхронізація даних брокера...",
+    "startFailed": "Не вдалося почати синхронізацію: {{error}}",
+    "needAttention_one": "{{count}} рахунок потребує уваги",
+    "needAttention_few": "{{count}} рахунки потребують уваги",
+    "needAttention_many": "{{count}} рахунків потребують уваги",
+    "needAttention_other": "{{count}} рахунку потребують уваги"
+  },
+  "status": {
+    "upToDate": "Актуально",
+    "syncing": "Синхронізація",
+    "syncingEllipsis": "Синхронізація...",
+    "needsReview": "Потрібна перевірка",
+    "failed": "Помилка",
+    "notConnected": "Не підключено",
+    "lastSynced": "Остання синхронізація: {{time}}",
+    "neverSynced": "Ніколи не синхронізовано"
+  },
+  "runStatus": {
+    "running": "Виконується",
+    "applied": "Застосовано",
+    "needsReview": "Потрібна перевірка",
+    "failed": "Помилка",
+    "cancelled": "Скасовано"
+  },
+  "syncRuns": {
+    "title": "Останні синхронізації",
+    "empty": "Синхронізацій ще не було.",
+    "warningsCount_one": "{{count}} попередження",
+    "warningsCount_few": "{{count}} попередження",
+    "warningsCount_many": "{{count}} попереджень",
+    "warningsCount_other": "{{count}} попередження",
+    "fetched": "Отримано",
+    "inserted": "Додано",
+    "updated": "Оновлено",
+    "skipped": "Пропущено",
+    "warningsLabel": "Попередження:",
+    "andMore": "... і ще {{count}}",
+    "reviewActivities": "Переглянути операції",
+    "duration": "Тривалість:",
+    "inProgress": "Виконується...",
+    "andMore_one": "... і ще {{count}}",
+    "andMore_few": "... і ще {{count}}",
+    "andMore_many": "... і ще {{count}}",
+    "andMore_other": "... і ще {{count}}"
+  },
+  "syncHistory": {
+    "title": "Історія синхронізації",
+    "success": "Успішно",
+    "review": "Переглянути",
+    "emptyTitle": "Синхронізацій ще не було",
+    "emptyDescription": "Історія синхронізації з'явиться тут після першої синхронізації",
+    "runCount_one": "{{count}} запуск",
+    "runCount_few": "{{count}} запуски",
+    "runCount_many": "{{count}} запусків",
+    "runCount_other": "{{count}} запуску",
+    "loadMore": "Завантажити ще",
+    "lessThanOneSecond": "<1 с",
+    "new": "нових",
+    "updated": "оновлено",
+    "skipped": "пропущено",
+    "warningsCount_one": "{{count}} попередження",
+    "warningsCount_few": "{{count}} попередження",
+    "warningsCount_many": "{{count}} попереджень",
+    "warningsCount_other": "{{count}} попередження",
+    "andMore": "+ ще {{count}}",
+    "andMore_one": "+ ще {{count}}",
+    "andMore_few": "+ ще {{count}}",
+    "andMore_many": "+ ще {{count}}",
+    "andMore_other": "+ ще {{count}}"
+  },
+  "activity": {
+    "syncingData": "Синхронізація ваших даних...",
+    "somethingWentWrong": "Щось пішло не так",
+    "upToDate": "Усе актуально",
+    "itemsNeedReview_one": "{{count}} елемент потребує вашої перевірки",
+    "itemsNeedReview_few": "{{count}} елементи потребують вашої перевірки",
+    "itemsNeedReview_many": "{{count}} елементів потребують вашої перевірки",
+    "itemsNeedReview_other": "{{count}} елемента потребують вашої перевірки",
+    "newItems": {
+      "transaction_one": "{{count}} нова операція",
+      "transaction_few": "{{count}} нові операції",
+      "transaction_many": "{{count}} нових операцій",
+      "transaction_other": "{{count}} нової операції",
+      "position_one": "{{count}} нова позиція",
+      "position_few": "{{count}} нові позиції",
+      "position_many": "{{count}} нових позицій",
+      "position_other": "{{count}} нової позиції"
+    },
+    "updatedItems": {
+      "transaction_one": "{{count}} операцію оновлено",
+      "transaction_few": "{{count}} операції оновлено",
+      "transaction_many": "{{count}} операцій оновлено",
+      "transaction_other": "{{count}} операції оновлено",
+      "position_one": "{{count}} позицію оновлено",
+      "position_few": "{{count}} позиції оновлено",
+      "position_many": "{{count}} позицій оновлено",
+      "position_other": "{{count}} позиції оновлено"
+    },
+    "removedItems": {
+      "transaction_one": "{{count}} операцію видалено",
+      "transaction_few": "{{count}} операції видалено",
+      "transaction_many": "{{count}} операцій видалено",
+      "transaction_other": "{{count}} операції видалено",
+      "position_one": "{{count}} позицію видалено",
+      "position_few": "{{count}} позиції видалено",
+      "position_many": "{{count}} позицій видалено",
+      "position_other": "{{count}} позиції видалено"
+    }
+  },
+  "attention": {
+    "title": "Синхронізація брокера потребує уваги",
+    "description_one": "{{count}} рахунок потребує повторної спроби або перевірки брокера.",
+    "description_few": "{{count}} рахунки потребують повторної спроби або перевірки брокера.",
+    "description_many": "{{count}} рахунків потребують повторної спроби або перевірки брокера.",
+    "description_other": "{{count}} рахунку потребують повторної спроби або перевірки брокера.",
+    "heading": "Потребує уваги",
+    "connectionLost": "З'єднання втрачено",
+    "accountsNotSyncing_one": "{{count}} рахунок не синхронізується",
+    "accountsNotSyncing_few": "{{count}} рахунки не синхронізуються",
+    "accountsNotSyncing_many": "{{count}} рахунків не синхронізуються",
+    "accountsNotSyncing_other": "{{count}} рахунку не синхронізуються",
+    "syncFailed": "Остання синхронізація не вдалася"
+  },
+  "setup": {
+    "newAccountsTitle": "Нові рахунки потребують налаштування",
+    "newAccountsDescription_one": "{{count}} рахунок потребує швидкого налаштування, перш ніж ми зможемо почати синхронізацію.",
+    "newAccountsDescription_few": "{{count}} рахунки потребують швидкого налаштування, перш ніж ми зможемо почати синхронізацію.",
+    "newAccountsDescription_many": "{{count}} рахунків потребують швидкого налаштування, перш ніж ми зможемо почати синхронізацію.",
+    "newAccountsDescription_other": "{{count}} рахунку потребують швидкого налаштування, перш ніж ми зможемо почати синхронізацію.",
+    "reviewAccounts": "Переглянути рахунки",
+    "setUp": "Налаштувати"
+  },
+  "devices": {
+    "thisDevice": "Цей пристрій",
+    "activeNow": "Активний зараз",
+    "lastSeen": "Востаннє в мережі: {{time}}",
+    "online": "У мережі",
+    "never": "Ніколи",
+    "showInactive_one": "Показати {{count}} неактивний пристрій",
+    "showInactive_few": "Показати {{count}} неактивні пристрої",
+    "showInactive_many": "Показати {{count}} неактивних пристроїв",
+    "showInactive_other": "Показати {{count}} неактивного пристрою",
+    "hideInactive": "Приховати неактивні пристрої",
+    "platforms": {
+      "server": "Сервер",
+      "web": "Веб"
+    }
+  },
+  "deviceStatus": {
+    "syncError": "Помилка синхронізації",
+    "syncPaused": "Синхронізацію призупинено",
+    "upToDate": "Актуально",
+    "syncing": "Синхронізація"
+  },
+  "serviceUnavailable": {
+    "title": "Сервіс тимчасово недоступний",
+    "description": "Виникли проблеми з підключенням до Wealthfolio Connect. Зазвичай це тимчасово й невдовзі вирішується.",
+    "retrying": "Повторна спроба...",
+    "tryAgain": "Спробувати ще раз"
+  },
+  "upgrade": {
+    "title": "Оновіть план, щоб синхронізувати брокерські рахунки",
+    "description": "Підключіть свої брокерські рахунки для автоматичної синхронізації портфеля.",
+    "button": "Оновити план"
+  },
+  "privacy": {
+    "footnote": "Wealthfolio Connect не зберігає ваші облікові дані брокера чи фінансові дані. Усе безпечно синхронізується через агрегатор до вашої локальної бази даних. Синхронізація пристроїв використовує наскрізне шифрування. <privacyLink>Дізнатися більше</privacyLink>"
+  },
+  "providers": {
+    "continueWithGoogle": "Продовжити з Google",
+    "continueWithApple": "Продовжити з Apple",
+    "continueWithEmail": "Продовжити з електронною поштою",
+    "lastUsed": "Останній використаний"
+  },
+  "subscription": {
+    "copySupportEmail": "Копіювати адресу підтримки",
+    "syncPausedTooltip": "Синхронізацію призупинено — потрібна активна підписка",
+    "syncPausedTitle": "Синхронізацію призупинено",
+    "syncPausedDescription": "Для синхронізації потрібна активна підписка. Ваші локальні дані та зміни, що очікують синхронізації, збережено.",
+    "comingSoon": "Незабаром",
+    "getStarted": "Почати",
+    "perMonthShort": "міс.",
+    "perYearShort": "рік",
+    "savings": "Економія {{percent}}% порівняно з щомісячною оплатою",
+    "choosePlan": "Виберіть свій план",
+    "choosePlanDescription": "Оформіть підписку, щоб розблокувати синхронізацію брокерів і хмарні функції.",
+    "monthly": "Щомісяця",
+    "yearly": "Щороку",
+    "monthlyBilling": "Щомісячна оплата",
+    "yearlyBilling": "Щорічна оплата",
+    "alreadySubscribed": "Уже маєте підписку?",
+    "connectionIssueTitle": "Проблема з підключенням",
+    "connectionIssueDescription": "Виникли проблеми з підключенням до вашого облікового запису. Таке може статися, якщо ваш сеанс завершився.",
+    "unableToLoadTitle": "Не вдалося завантажити плани",
+    "unableToLoadDescription": "Зараз не вдалося отримати плани підписки. Зазвичай це тимчасова проблема.",
+    "contactSupport": "Зв'язатися з підтримкою",
+    "emailCopied": "Адресу скопійовано до буфера обміну",
+    "reconnecting": "Повторне підключення...",
+    "reconnect": "Підключити знову",
+    "refreshPage": "Оновити сторінку"
+  },
+  "authCallback": {
+    "processing": "Обробка автентифікації...",
+    "completing": "Завершення входу..."
+  },
+  "authErrors": {
+    "noSessionReturned": "Після завершення входу сеанс не повернуто.",
+    "completeSignInFailed": "Не вдалося завершити вхід",
+    "signInFailed": "Не вдалося увійти",
+    "signUpFailed": "Не вдалося зареєструватися",
+    "confirmEmail": "Перевірте свою пошту, щоб підтвердити обліковий запис.",
+    "oauthFailed": "Не вдалося увійти через OAuth",
+    "magicLinkFailed": "Не вдалося надіслати посилання для входу",
+    "invalidVerificationCode": "Недійсний код підтвердження",
+    "signOutFailed": "Не вдалося вийти",
+    "fetchUserInfoFailed": "Не вдалося отримати дані користувача"
+  },
+  "newAccounts": {
+    "title": "Знайдено нові рахунки",
+    "description": "Виберіть, як відстежувати кожен рахунок. Це можна змінити пізніше.",
+    "trackingInfo": "Режим <strong>Операції</strong> відстежує кожну угоду для повної аналітики дохідності. Режим <strong>Позиції</strong> імпортує лише знімки з обмеженими показниками. <docsLink>Дізнатися більше</docsLink>",
+    "accountName": "Назва рахунку",
+    "group": "Група (необов'язково)",
+    "groupPlaceholder": "напр., Пенсія",
+    "trackingMode": "Режим відстеження",
+    "transactions": "Операції",
+    "transactionsDescription": "Повна аналітика дохідності",
+    "holdings": "Позиції",
+    "holdingsDescription": "Лише знімки",
+    "holdingsWarning": "Без історії операцій показники дохідності будуть обмежені.",
+    "notNow": "Не зараз",
+    "saving": "Збереження...",
+    "saveAndSync": "Зберегти та синхронізувати",
+    "configured": "Рахунки налаштовано",
+    "configuredDescription": "Початок синхронізації з вибраними налаштуваннями...",
+    "saveFailed": "Не вдалося зберегти рахунки"
+  },
+  "errors": {
+    "unknown": "Невідома помилка"
+  },
+  "session": {
+    "restoring": "Відновлення Connect…",
+    "unavailable": "Connect тимчасово недоступний",
+    "localAvailable": "Ваш локальний портфель доступний. Повторіть спробу, щоб підключитися знову."
+  },
+  "rebind": {
+    "title": "Змінити підключення Connect для цього профілю?",
+    "description": "Ви підключаєте інший обліковий запис або домогосподарство. Дані вашого локального портфеля залишаться, але наявні зв'язки з брокерами та налаштування синхронізації пристроїв буде видалено. Новий обліковий запис може додати дані брокера до цього профілю. Налаштуйте синхронізацію пристроїв знову, коли будете готові. Використайте новий профіль, якщо хочете зберегти дані окремо.",
+    "cancel": "Скасувати",
+    "confirm": "Змінити підключення"
+  }
+}

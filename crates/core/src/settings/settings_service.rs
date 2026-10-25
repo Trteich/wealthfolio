@@ -14,7 +14,7 @@ const SUPPORTED_FORMATTING_REGIONS: &[&str] = &[
     "JP", "KR", "IT", "RO", "BG",
 ];
 const SUPPORTED_UI_LANGUAGES: &[&str] = &[
-    "en", "fr", "de", "es", "pt", "zh", "zh-Hant", "ja", "ko", "it", "ar",
+    "en", "fr", "de", "es", "pt", "zh", "zh-Hant", "ja", "ko", "it", "ar", "uk",
 ];
 
 /// Traditional Chinese is written in Taiwan, Hong Kong and Macau. Match the

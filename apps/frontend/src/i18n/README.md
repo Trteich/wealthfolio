@@ -148,6 +148,11 @@ interpolations, embedded durations, and financial terminology.
 - **Traditional Chinese (`zh-Hant`)**: contributed in PR #1566, machine-seeded
   from the English source and reviewed for Taiwan financial terminology by a
   native speaker; intended for continued community review.
+- **Ukrainian (`uk`)**: AI-drafted, full-coverage translation of all namespaces
+  against the English source keys, with `one/few/many/other` plural forms;
+  maintained on a local fork branch. After merging upstream, run
+  `pnpm --filter frontend i18n:sync-check` to list keys that still need
+  translating.
 
 Non-English catalogs are machine-drafted and community-corrected. Terminology
 reports are expected and welcome — file them as issues against the locale.

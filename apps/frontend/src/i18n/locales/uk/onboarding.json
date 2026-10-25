@@ -1,0 +1,101 @@
+{
+  "buttons": {
+    "continue": "Продовжити",
+    "subscribeConnect": "Підписатися та підключити",
+    "getStarted": "Почати"
+  },
+  "steps": {
+    "chooseMode": {
+      "subtitle": "Два способи відстежувати ваш портфель.",
+      "holdings": {
+        "title": "Позиції",
+        "subtitle": "Відстеження вартості",
+        "badge": "Найкраще для простого відстеження.",
+        "features": {
+          "netWorth": "Чисте майно та розподіл",
+          "unrealizedPnl": "Вартість і нереалізований прибуток/збиток",
+          "priceBased": "Дохідність на основі цін",
+          "fastSetup": "Швидке та легке налаштування"
+        },
+        "limit": "Обмеження: без TWR/IRR на основі операцій.",
+        "note": "Примітка: потрібно підтримувати актуальність позицій."
+      },
+      "transactions": {
+        "title": "Операції",
+        "subtitle": "Відстеження дохідності",
+        "badge": "Найкраще для повної аналітики дохідності.",
+        "features": {
+          "totalReturn": "Загальна дохідність у часі",
+          "attribution": "Аналіз прибутку та грошових потоків",
+          "completeView": "Найповніша картина дохідності",
+          "brokerSync": "Найкраще працює із синхронізацією з брокером або імпортом CSV"
+        },
+        "limit": "Обмеження: потрібно вести облік усіх операцій.",
+        "note": "Примітка: автоматично, якщо синхронізовано з брокером."
+      },
+      "footnote": "Для різних рахунків можна використовувати різні режими.",
+      "learnMore": "Докладніше"
+    },
+    "preferences": {
+      "subtitle": "Кілька налаштувань, щоб почати",
+      "currencyLabel": "Валюта",
+      "timezoneLabel": "Часовий пояс",
+      "other": "Інше",
+      "selectCurrency": "Виберіть валюту",
+      "selectTimezone": "Виберіть часовий пояс",
+      "searchCurrenciesPlaceholder": "Пошук валют...",
+      "searchTimezonesPlaceholder": "Пошук часових поясів...",
+      "noCurrenciesFound": "Валют не знайдено",
+      "noTimezonesFound": "Часових поясів не знайдено",
+      "currencyRequired": "Виберіть базову валюту.",
+      "timezoneRequired": "Виберіть часовий пояс.",
+      "languageLabel": "Мова",
+      "formattingRegionLabel": "Регіон і формати",
+      "searchRegionsPlaceholder": "Пошук регіонів...",
+      "noRegionsFound": "Регіонів не знайдено",
+      "searchLanguagesPlaceholder": "Пошук мов...",
+      "noLanguagesFound": "Мов не знайдено"
+    }
+  },
+  "appearance": {
+    "subtitle": "Налаштуйте інтерфейс під себе",
+    "themeLabel": "Тема",
+    "fontLabel": "Шрифт",
+    "themeLight": "Світла",
+    "themeDark": "Темна",
+    "themeSystem": "Системна",
+    "themeLightPreviewAlt": "Попередній перегляд світлої теми",
+    "themeDarkPreviewAlt": "Попередній перегляд темної теми",
+    "themeSystemPreviewAlt": "Попередній перегляд системної теми",
+    "fontSample": "Інвестуйте усвідомлено.",
+    "fonts": {
+      "monoLabel": "Моноширинний",
+      "monoDescription": "Технічний і точний",
+      "sansLabel": "Без засічок",
+      "sansDescription": "Чистий і сучасний",
+      "serifLabel": "Із засічками",
+      "serifDescription": "Класичний і елегантний"
+    },
+    "navigationLabel": "Навігація"
+  },
+  "connect": {
+    "optional": "Необов'язково",
+    "title": "Wealthfolio Connect",
+    "subtitle": "Автоматично синхронізуйте дані з брокерами, зберігаючи їхню конфіденційність.",
+    "learnMore": "Докладніше про Connect",
+    "features": {
+      "brokerageSync": {
+        "title": "Синхронізація з брокером",
+        "description": "Автоматично синхронізуйте рахунки та операції з локальною базою даних."
+      },
+      "deviceSync": {
+        "title": "Синхронізація пристроїв",
+        "description": "Підтримуйте базу даних в актуальному стані на всіх пристроях із наскрізним шифруванням."
+      },
+      "householdView": {
+        "title": "Сімейний огляд",
+        "description": "Діліться вибраними рахунками з родиною та переглядайте спільний зведений огляд."
+      }
+    }
+  }
+}

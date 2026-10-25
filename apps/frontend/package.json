@@ -34,6 +34,7 @@
     "i18n:lint": "i18next-cli lint",
     "i18n:types": "i18next-cli types",
     "i18n:check": "node scripts/check-translations.mjs",
+    "i18n:sync-check": "node scripts/i18n-sync-check.mjs",
     "themes:generate": "node scripts/theme-generate.mjs",
     "themes:check": "node scripts/theme-generate.mjs --check"
   },
