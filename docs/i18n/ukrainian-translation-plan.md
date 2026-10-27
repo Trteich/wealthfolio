@@ -48,7 +48,7 @@ as `Record<LocaleCode, ...>`, so forgetting it is a compile error.
    - polite neutral register, avoiding direct address where possible, and no
      Russianisms (`рахунок`, `зберегти`, `налаштування`);
    - a shared glossary: Account = Рахунок, Holdings = Позиції, Assets = Активи,
-     Performance = Дохідність, Allocation = Розподіл, Net worth = Чисте майно,
+     Performance = Дохідність, Allocation = Розподіл, Net worth = Чисті активи,
      Cost basis = Собівартість, Sync = Синхронізація, and so on.
 3. Large files were translated in chunks and merged by a script that loads the
    English file and rebuilds the Ukrainian one, so key order and completeness

@@ -59,7 +59,7 @@
     "value_strip": {
       "portfolio_value": "Вартість портфеля",
       "cash_balance": "Залишок готівки",
-      "invested": "Інвестовано",
+      "invested": "Проінвестовано",
       "book_cost": "Собівартість",
       "pnl_current_holdings": "Поточні позиції",
       "no_cash_balance": "Немає залишку готівки",
@@ -82,9 +82,9 @@
       "update_balance": "Оновити баланс",
       "link_property": "Прив'язати нерухомість до {{name}}",
       "add_property": "Додати нерухомість для {{name}}",
-      "link_explanation": "Прив'язування наявної нерухомості не змінює ваше чисте майно."
+      "link_explanation": "Прив'язування наявної нерухомості не змінює ваше чисті активи."
     },
-    "failed_to_load": "Не вдалося завантажити чисте майно",
+    "failed_to_load": "Не вдалося завантажити чисті активи",
     "stale_valuations_tooltip": "Застарілі оцінки (90+ днів):",
     "days_ago": "{{count}} дн. тому",
     "no_history_data": "Немає історичних даних",
@@ -93,8 +93,8 @@
     "add_first_asset": "Додайте свій перший актив",
     "not_updated_over_90_days": "Не оновлювалося понад 90 днів.",
     "chart": {
-      "net_worth": "Чисте майно",
-      "net_worth_label": "Чисте майно:",
+      "net_worth": "Чисті активи",
+      "net_worth_label": "Чисті активи:",
       "assets_label": "Активи:",
       "liabilities_label": "Зобов'язання:"
     },
@@ -106,7 +106,7 @@
       "delta_period": "Δ {{period}}",
       "new": "Нове",
       "liabilities": "Зобов'язання",
-      "net_worth": "Чисте майно"
+      "net_worth": "Чисті активи"
     },
     "category_sheet": {
       "over_period": "за {{period}}",
